@@ -17,6 +17,11 @@
     border-bottom-right-radius: 8px;
 }
 .header-navbar {
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    transition: ease .5s;
+    box-shadow: 0 0 5px #ccc;
     display: flex;
     justify-content: center;
     padding: 10px;
