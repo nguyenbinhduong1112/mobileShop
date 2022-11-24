@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    cursor: default;
+}
+#main {
+    overflow: hidden;
+}
+a,a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul,li {
+    padding-left : 0;
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6 rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+:root {
+    --primari-color : #087dc2;
+    --link-color :rgb(92, 13, 238);
+}
+.ml-4 {
+    padding-left: 4px;
+}
+.ml-8 {
+    padding-left: 8px;
+}
+.mr--12 {
+    margin-right: -12px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.full-width {
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.font-header {
+    font-family: 'Playfair Display', serif;
+}
+
+.primary-text-color {
+    color: rgb(199, 237, 8);
+}
+.space  {
+    width: 100%;
+    border-bottom: 1px dashed #ff3f73;
+    margin: 4px 0;
+}
+.full-size-img {
+    width: 100%;
+}
+.half-size-img {
+    width: 50%;
+}
+.height-center {
+    align-items: center;
+}
+
+.image-box,.button-box {
+    text-align: center;
+    padding: auto;
+    width: 100%;
+}
+.image-16-9 {
+    
+}
+
+
+.btn-payment {
+    font-size:2rem;
+    padding: 4px 20px;
+}
+.btn-readmore,.buy-btn {
+    padding: 10px 20px;
+    font-size: 1.6rem;
+}
+.send-btn {
+    font-size: 1.6rem;
+    padding: 8px 30px;
+}
+.border-left {
+    border-left: 1px dashed #ff3f73;
+}
+.border-right {
+    border-right: 1px dashed #ff3f73;
+}
+.form-label {
+    width : 100%;
+}
+
+figure {
+    border-radius: 8px;
+    margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+figure img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+  }
+figure:hover img,
+.tour-box-item:hover figure img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }

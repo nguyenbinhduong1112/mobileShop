@@ -1,0 +1,31 @@
+@media (max-width:480px) {
+    .hidden-mobile {
+        display: none;
+    }
+    .body-right-box {
+        border-left:none ;
+        padding: 0  ;
+    }
+    .header-top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        box-shadow: 0 0 4px #204E70;
+    }
+    .header-slide {
+        margin-top: 118px;
+    }
+    .header-navbar-name {
+        font-size: 1.6rem;
+        color: #fff;
+        font-weight: 600;
+        
+    }
+}
+@media (min-width: 1024px) {
+    .hidden-pc {
+        display: none;
+    }
+}

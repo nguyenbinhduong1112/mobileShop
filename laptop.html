@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ewert&family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/grid_primary.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/reponsive.css">
+</head>
+<body>
+    <div id="main">
+        <div class="thongbao">
+            <span><i class="fa-solid fa-circle-xmark"></i></span>
+            <h4 class="">Vui lòng đăng nhập để mua hàng</h4>
+        </div>
+        <div class="header-box">
+            <div class="header-top row height-center">
+                <div class="col l-2 c-9">
+                    <a href="index.html" class="header-logo image-box">
+                        <img src="assets/images/logo.png" alt="" class="full-size-img">
+                    </a>
+                </div>
+                <div class="col l-9 c-0">
+                    <div class="header-search text-right">
+                        <input type="text" class="input-search" placeholder="Nhập tên điện thoại, laptop, phụ kiện...">
+                        <span class="search-icon-bg"><i class="search-icon fa-solid fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="col l-0 c-3 text-center">
+                    <div class="open-menu-icon menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="close-menu-icon menu-icon">
+                        <i class="fa-solid fa-close"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="header-navbar hidden-mobile">
+                <div class="header-navbar-item">
+                    <div class="header-navbar-icon">
+                        <i class="fa-solid fa-mobile"></i>
+                    </div>
+                    <a href="mobile.html" class="header-navbar-name">Điện thoại</a>
+                </div>
+                <div class="header-navbar-item">
+                    <div class="header-navbar-icon">
+                        <i class="fa-solid fa-laptop"></i>
+                    </div>
+                    <a href="laptop.html" class="header-navbar-name">LapTop</a>
+                </div>
+                <div class="header-navbar-item">
+                    <div class="header-navbar-icon">
+                        <i class="fa-solid fa-tablet-screen-button"></i>
+                    </div>
+                    <a href="ipad.html" class="header-navbar-name">Máy Tính Bảng</a>
+                </div>
+                <div class="header-navbar-item">
+                    <div class="header-navbar-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <a href="phukien.html" class="header-navbar-name">PC - Linh Kiện</a>
+                </div>
+                <div class="header-navbar-item">
+                    <div class="header-navbar-icon">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <a href="" class="header-navbar-name">Apple</a>
+                </div>
+                
+                <div class="header-navbar-item">
+                    <div class="header-navbar-icon">
+                        <i class="fa-brands fa-old-republic"></i>
+                    </div>
+                    <a href="" class="header-navbar-name">Máy cũ giá rẻ</a>
+                </div>
+                
+                <div class="header-navbar-item">
+                    <div class="header-navbar-icon">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <a href="khuyenmai.html" class="header-navbar-name">Khuyến mãi</a>
+                </div>
+            </div>
+            <div class="header-navbar-mobile hidden-pc">
+                <a href="mobile.html" class="header-navbar-name">Điện thoại</a>
+                <a href="laptop.html" class="header-navbar-name">LapTop</a>
+                <a href="ipad.html" class="header-navbar-name">Máy Tính Bảng</a>
+                <a href="phukien.html" class="header-navbar-name">PC - Linh Kiện</a>
+                <a href="" class="header-navbar-name">Apple</a>
+                <a href="" class="header-navbar-name">Máy cũ giá rẻ</a>
+                <a href="khuyenmai.html" class="header-navbar-name mb-5  ">Khuyến mãi</a>
+            </div>
+            <div class="header-slide image-box">
+                <img src="assets/images/slide-laptop.png" alt="" class="full-size-img">
+            </div>
+        </div>
+        <div class="body-box">
+            <div class="row">
+                <div class="col l-3">
+                    <div class="body-left-box">
+                        <div class="body-left-item">
+                            <h4 class="body-left-header">Hàng sản xuất</h4>
+                            <div class="row">
+                                <div class="col l-6">
+                                    <div class="choose-box">
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Tất cả</span>
+                                        </div>
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Samsung</span>
+                                        </div>
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Xiaomi</span>
+                                        </div>
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>OPPO</span>
+                                        </div>
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Realme</span>
+                                        </div>
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Tecno</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-6">
+                                    <div class="choose-box">
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Apple</span>
+                                        </div>
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Vivo</span>
+                                        </div>
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Masstel</span>
+                                        </div>
+                                        <div class="choose-item">
+                                            <input type="checkbox">
+                                            <span>Nokia</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-left-item">
+                            <h4 class="body-left-header">Mức giá</h4>
+                            <div class="choose-box">
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Tất cả</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Dưới 2 triệu</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Từ 2 triệu - 4 triệu</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Từ 4 triệu - 7 triệu</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Từ 7 triệu - 13 triệu</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Trên 13 triệu</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-left-item">
+                            <h4 class="body-left-header">Màn hình</h4>
+                            <div class="choose-box">
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Tất cả</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Dưới 5.0 inch</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Dưới 6.0 inch, tràn viền</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Trên 6.0 inch</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Màn hình gập</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-left-item">
+                            <h4 class="body-left-header">CPU</h4>
+                            <div class="choose-box">
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Tất cả</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Intel Celeron</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Intel pentium</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Intel core i3</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Intel core i5</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Intel core i7</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Amd ryzen i3</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Amd ryzen i5</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Amd ryzen i7</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-left-item">
+                            <h4 class="body-left-header">Hiệu năng và pin</h4>
+                            <div class="choose-box">
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Tất cả</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Dưới 3000 mah</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Từ 3000 mah - 4000 mah</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Từ 4000 mah - 5000 mah</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Pin siêu trâu : trên 5000 mah</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Chơi game, cấu hình cao</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-left-item">
+                            <h4 class="body-left-header">Trả góp ưu đãi</h4>
+                            <div class="choose-box">
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Tất cả</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Trả góp 0%</span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Trả góp 0đ </span>
+                                </div>
+                                <div class="choose-item">
+                                    <input type="checkbox">
+                                    <span>Trả góp 0đ và 0%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col l-9">
+                    <div class="body-right-box">
+                        <h4 class="body-right-header">LAPTOP <span>( 500 sản phẩm )</span></h4>
+                        <div class="body-tab-box hidden-mobile">
+                            <span class="tab-label">Ưu tiên xem : </span>
+                            <span class="tab-button active">Bán chạy nhất</span>
+                            <span class="tab-button">Trả góp 0%</span>
+                            <span class="tab-button">Giá thấp</span>
+                            <span class="tab-button">Giá cao</span>
+                            <span class="tab-button">Ưu đãi online</span>
+                        </div>
+                        <div class="product-list">
+                            <div class="row">
+                                <div class="col l-4">
+                                    <div class="product-item">
+                                        <div class="product-image image-box">
+                                            <img src="assets/images/laptop-1.png" alt="" class="full-size-img">
+                                        </div>
+                                        <h4 class="product-name text-center">Asus TUF Gaming FX506LHB HN188W i5 10300H</h4>
+                                        <div class="button-box">
+                                            <span class="product-price">17.490.000 đ</span>
+                                        </div>
+                                        <div class="button-box mt-3 ">
+                                            <button class="btn btn-danger p-3 buy-btn">Mua ngay</button>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-info">
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-brands fa-slack"></i></span>
+                                                        <span class="product-info-desc">Core i5</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-panorama"></i></span>
+                                                        <span class="product-info-desc">15.5 inch</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-earth-americas"></i></i></span>
+                                                        <span class="product-info-desc">8 GB</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-mobile"></i></span>
+                                                        <span class="product-info-desc">256 GB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-brand">
+                                                <img src="assets/images/moca-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/kedivo-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/vnpay-icon.png" alt="" class="brand-product-img">
+                                            </div>
+                                            <p class="product-desc text-center"> Giảm ngay 300.000 đ khi thanh toán qua VNPAY - QR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-4">
+                                    <div class="product-item">
+                                        <div class="product-image image-box">
+                                            <img src="assets/images/laptop-2.png" alt="" class="full-size-img">
+                                        </div>
+                                        <h4 class="product-name text-center">Gigabyte Gaming G5 GD i5 104000H (51VN123SO)</h4>
+                                        <div class="button-box">
+                                            <span class="product-price">21.490.000 đ</span>
+                                        </div>
+                                        <div class="button-box mt-3 ">
+                                            <button class="btn btn-danger p-3 buy-btn">Mua ngay</button>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-info">
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-brands fa-slack"></i></span>
+                                                        <span class="product-info-desc">Core i5</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-panorama"></i></span>
+                                                        <span class="product-info-desc">6.7 inch</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-earth-americas"></i></i></span>
+                                                        <span class="product-info-desc">8 GB</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-mobile"></i></span>
+                                                        <span class="product-info-desc">512 GB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-brand">
+                                                <img src="assets/images/samsung-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/tpbank-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/vnpay-icon.png" alt="" class="brand-product-img">
+                                            </div>
+                                            <p class="product-desc text-center"> Tặng bộ phụ kiện samsung chính hãng</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-4">
+                                    <div class="product-item">
+                                        <div class="product-image image-box">
+                                            <img src="assets/images/laptop-3.png" alt="" class="full-size-img">
+                                        </div>
+                                        <h4 class="product-name text-center">HP 15s - fq 5080TU - i5 1235U/6K7A0PA</h4>
+                                        <div class="button-box">
+                                            <span class="product-price">23.650.000 đ</span>
+                                        </div>
+                                        <div class="button-box mt-3 ">
+                                            <button class="btn btn-danger p-3 buy-btn">Mua ngay</button>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-info">
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-brands fa-slack"></i></span>
+                                                        <span class="product-info-desc">Core i5</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-panorama"></i></span>
+                                                        <span class="product-info-desc">16.5 inch</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-earth-americas"></i></i></span>
+                                                        <span class="product-info-desc">4 GB</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-mobile"></i></span>
+                                                        <span class="product-info-desc">256 GB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-brand">
+                                                <img src="assets/images/tpbank-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/moca-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/kedivo-icon.png" alt="" class="brand-product-img">
+                                            </div>
+                                            <p class="product-desc text-center"> Giảm ngay 600.000 đ khi thanh toán qua TPBank - QR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-4">
+                                    <div class="product-item">
+                                        <div class="product-image image-box">
+                                            <img src="assets/images/laptop-4.png" alt="" class="full-size-img">
+                                        </div>
+                                        <h4 class="product-name text-center">CHUWI GemiBook Pro Celoron N5100 Win 10</h4>
+                                        <div class="button-box">
+                                            <span class="product-price">11.190.000 đ</span>
+                                        </div>
+                                        <div class="button-box mt-3 ">
+                                            <button class="btn btn-danger p-3 buy-btn">Mua ngay</button>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-info">
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-brands fa-slack"></i></span>
+                                                        <span class="product-info-desc">Apple A13 Bionic</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-panorama"></i></span>
+                                                        <span class="product-info-desc">15.1 inch</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-earth-americas"></i></i></span>
+                                                        <span class="product-info-desc">8 GB</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-mobile"></i></span>
+                                                        <span class="product-info-desc">256 GB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-brand">
+                                                <img src="assets/images/vnpay-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/kedivo-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/moca-icon.png" alt="" class="brand-product-img">
+                                            </div>
+                                            <p class="product-desc text-center">Giảm ngay 200.000 đ khi thanh toán qua VNPAY - QR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-4">
+                                    <div class="product-item">
+                                        <div class="product-image image-box">
+                                            <img src="assets/images/laptop-5.png" alt="" class="full-size-img">
+                                        </div>
+                                        <h4 class="product-name text-center">MSI Gaming GF63 Thin 11SC - 666VN i5 11400H</h4>
+                                        <div class="button-box">
+                                            <span class="product-price">18.650.000 đ</span>
+                                        </div>
+                                        <div class="button-box mt-3 ">
+                                            <button class="btn btn-danger p-3 buy-btn">Mua ngay</button>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-info">
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-brands fa-slack"></i></span>
+                                                        <span class="product-info-desc">Celeron</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-panorama"></i></span>
+                                                        <span class="product-info-desc">15.0 inch</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-earth-americas"></i></i></span>
+                                                        <span class="product-info-desc">16 GB</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-mobile"></i></span>
+                                                        <span class="product-info-desc">512 GB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-brand">
+                                                <img src="assets/images/moca-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/kedivo-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/vnpay-icon.png" alt="" class="brand-product-img">
+                                            </div>
+                                            <p class="product-desc text-center">  Tặng Đế xạc không dây 1.290.000 đ</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-4">
+                                    <div class="product-item">
+                                        <div class="product-image image-box">
+                                            <img src="assets/images/laptop-6.png" alt="" class="full-size-img">
+                                        </div>
+                                        <h4 class="product-name text-center">Acer Nitro Gaming AN515 - 57 - 54WV i5 11400H (NH.QENSV.003)</h4>
+                                        <div class="button-box">
+                                            <span class="product-price">25.590.000 đ</span>
+                                        </div>
+                                        <div class="button-box mt-3 ">
+                                            <button class="btn btn-danger p-3 buy-btn">Mua ngay</button>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-info">
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-brands fa-slack"></i></span>
+                                                        <span class="product-info-desc">Gaming i5</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-panorama"></i></span>
+                                                        <span class="product-info-desc">15.5 inch</span>
+                                                    </div>
+                                                </div>
+                                                <div class="product-info-box">
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-earth-americas"></i></i></span>
+                                                        <span class="product-info-desc">8 GB</span>
+                                                    </div>
+                                                    <div class="product-info-item">
+                                                        <span class="product-icon"><i class="fa-solid fa-mobile"></i></span>
+                                                        <span class="product-info-desc">1024 GB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-brand">
+                                                <img src="assets/images/tpbank-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/samsung-icon.png" alt="" class="brand-product-img">
+                                                <img src="assets/images/vnpay-icon.png" alt="" class="brand-product-img">
+                                            </div>
+                                            <p class="product-desc text-center"> Giảm 4% tối đa 600.000 đ khi thanh toán qua Grab Moca</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="button-box mt-5">
+                                <button class="btn btn-info btn-readmore">Xem Thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-box">
+            <div class="row height-center">
+                <div class="col l-2 l-o-2 c-12">
+                    <div class="footer-menu">
+                        <li> <a href="" class="footer-menu-link">Giới thiệu công ty</a></li>
+                        <li> <a href="" class="footer-menu-link">Danh sách cửa hàng</a></li>
+                        <li> <a href="" class="footer-menu-link">Câu hỏi thường gặp</a></li>
+                        <li> <a href="" class="footer-menu-link">Chính sách bảo mật</a></li>
+                        <li> <a href="" class="footer-menu-link">Cơ chế hoạt động</a></li>
+                        <li> <a href="" class="footer-menu-link">Kiểm tra thông tin bảo hành</a></li>
+                        <li> <a href="" class="footer-menu-link">Tin tín dụng</a></li>
+                        <li> <a href="" class="footer-menu-link">Tin khuyến mãi</a></li>
+                    </div>
+                </div>
+                <div class="col l-2 l-o-4 c-12">
+                    <li class="footer-desc"> Tư vấn khách hàng miễn phí</li>
+                    <li><span class="footer-phone-number">+84 12345678</span></li>
+                    <li class="footer-desc"> Tư vấn Kĩ thuật</li>
+                    <li><span class="footer-phone-number">+84 22312378</span></li>
+                    <li class="footer-desc"> Hỗ trợ thanh toán</li>
+                    <div class="payment-list image-box">
+                        <img src="assets/images/08d89ba678f5af1b2d567e21b5ecbc64.png" alt="" class="full-size-img">
+                    </div>
+                </div>
+            </div>
+        <div class="back-top"><img class="back-top-img" src="assets/images/arow-up-2.jpg" alt=""></div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                if($(this).scrollTop() > 400) {
+                    $('.back-top-img').fadeIn();
+                } else {
+                    $('.back-top-img').fadeOut();
+                }
+            })
+            $('.back-top-img').click(function() {
+                $('html,body').animate({scrollTop:0},1000)
+            }) 
+        })
+        var openMenu = document.querySelector('.open-menu-icon')
+        var closeMenu = document.querySelector('.close-menu-icon')
+        var headerNavbar = document.querySelector('.header-navbar-mobile')
+
+        openMenu.onclick = function() {
+            headerNavbar.style.top = '115px'
+            closeMenu.style.display = 'block'
+            openMenu.style.display = 'none'
+        }
+        closeMenu.onclick = function() {
+            headerNavbar.style.top = '-150px';
+            closeMenu.style.display = 'none'
+            openMenu.style.display = 'block'
+        }
+        var buyBtns = document.querySelectorAll('.buy-btn')
+        var thongbao = document.querySelector('.thongbao')
+        buyBtns.forEach((buyBtn,index) => {
+            buyBtn.onclick = function() {
+                thongbao.style.top = '0'
+                setTimeout(() => {
+                thongbao.style.top = '-100%'
+                }, 3000);
+            }
+
+        })
+    </script>
+</body>
+</html>
