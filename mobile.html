@@ -758,6 +758,15 @@
             closeMenu.style.display = 'none'
             openMenu.style.display = 'block'
         }
+        var header = document.querySelector('.header-navbar')
+        window.onscroll = function() {
+            console.log(document.documentElement.scrollTop)
+            if(document.documentElement.scrollTop > 72 ) {
+                header.style.position = "fixed"
+            } else {
+                header.style.position = "relative"
+            }
+        }
 
         var buyBtns = document.querySelectorAll('.buy-btn')
         var thongbao = document.querySelector('.thongbao')

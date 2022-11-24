@@ -191,6 +191,15 @@
                 $('html,body').animate({scrollTop:0},1000)
             }) 
         })
+        var header = document.querySelector('.header-navbar')
+        window.onscroll = function() {
+            console.log(document.documentElement.scrollTop)
+            if(document.documentElement.scrollTop > 72 ) {
+                header.style.position = "fixed"
+            } else {
+                header.style.position = "relative"
+            }
+        }
         var openMenu = document.querySelector('.open-menu-icon')
         var closeMenu = document.querySelector('.close-menu-icon')
         var headerNavbar = document.querySelector('.header-navbar-mobile')

@@ -175,7 +175,7 @@
                     <div class="col l-2 text-center c-6">
                         
                         <img src="assets/images/pk-11.png" class="img-QC img-QC-2" alt="">
-                        <p class="QC-desc mb-5">Mand hình</p>
+                        <p class="QC-desc mb-5">Màn hình</p>
                     </div>
                     
                     <div class="col l-2 text-center c-6">
@@ -394,6 +394,15 @@
                 $('html,body').animate({scrollTop:0},1000)
             }) 
         })
+        var header = document.querySelector('.header-navbar')
+        window.onscroll = function() {
+            console.log(document.documentElement.scrollTop)
+            if(document.documentElement.scrollTop > 72 ) {
+                header.style.position = "fixed"
+            } else {
+                header.style.position = "relative"
+            }
+        }
         var openMenu = document.querySelector('.open-menu-icon')
         var closeMenu = document.querySelector('.close-menu-icon')
         var headerNavbar = document.querySelector('.header-navbar-mobile')
